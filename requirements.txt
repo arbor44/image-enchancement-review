@@ -1,0 +1,3 @@
+numpy>=1.16.4
+opencv-python==4.5.5.64
+hydra-core==1.1.2
