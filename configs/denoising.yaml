@@ -1,0 +1,18 @@
+- _target_: imenhance.MedianFilterDenoiser
+  params:
+    name: MedianFilterDenoiser
+    kernel_size:
+        range: [3, 19]
+        step: 2
+        default: 5
+- _target_: imenhance.BilateralFilterDenoiser
+  params:
+    name: BilateralDenoiser
+    distance:
+      range: [2, 16]
+      step: 1
+      default: 5
+    sigma:
+      range: [10, 100]
+      step: 1
+      default: 10

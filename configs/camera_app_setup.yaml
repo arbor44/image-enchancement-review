@@ -1,0 +1,7 @@
+defaults:
+  - light_enhancement@light_enhancement
+  - denoising@denoising
+
+pipeline_steps:
+  - 'light_enhancement'
+  - 'denoising'
