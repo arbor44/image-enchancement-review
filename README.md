@@ -16,5 +16,5 @@ To start webcam demonstration use:
 python camera_demo.py
 ```
 
-To add or delete algo (light enhancer or denoiser) use configs locatedt at ``configs`` dir
+To add or delete image enhancement algo (light enhancer or denoiser) use configs locatedt at ``configs`` dir
  
